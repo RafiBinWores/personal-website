@@ -1,13 +1,13 @@
 body{
     font-family: 'Acme', sans-serif, 'Courgette', cursive, 'Poppins', sans-serif;
-    margin: 10%;
+    margin: 0;
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin: 10%;
 }
 .head-line{
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Acme', cursive;
     border-left: 5px solid #4267B2;
 }
@@ -31,7 +31,55 @@ p{
     width: 50%;
     padding-right: 25px;
 }
+.half-width h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
 .half-width img{
     width: 65%;
-    padding-left: 50px;
+}
+.mission-2022{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.flex-box1{
+    font-family: 'Poppins', sans-serif;
+    background-color: 	#E0FFFF;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+.flex-box1 img{
+    width: 40%;
+}
+.flex-box2{
+    font-family: 'Poppins', sans-serif;
+    background-color: #AFEEEE;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+.flex-box2 img{
+    width: 40%;
+}
+.flex-box3{
+    font-family: 'Poppins', sans-serif;
+    background-color: #7FFFD4;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+.flex-box3 img{
+    width: 40%;
+}
+.half-width #img-p{
+    padding-left: 100px;
+}
+footer{
+    font-family: 'Courgette', cursive;
+    background-color: #080808;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
 }
